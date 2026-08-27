@@ -1,0 +1,1063 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+<!-- ── SEO & GEO Meta ── -->
+<title>RankForce GEO — 12-Agent AI SEO Squad by Ankit Singh</title>
+<meta name="description" content="Free browser-based GEO tool. 12 specialized Claude AI agents covering every layer of AI search visibility — prompt research, on-page GEO, schema markup, citation building, AI visibility audit, competitor share-of-voice, and more."/>
+<meta name="keywords" content="GEO, generative engine optimization, AI SEO, AEO, answer engine optimization, AI search visibility, Claude AI, ChatGPT SEO, Perplexity SEO, AI content strategy"/>
+<meta name="author" content="Ankit Singh"/>
+<meta name="robots" content="index, follow"/>
+<link rel="canonical" href="https://ankitsingh.github.io/rankforce-geo/"/>
+
+<!-- ── Open Graph ── -->
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="RankForce GEO — 12-Agent AI SEO Squad"/>
+<meta property="og:description" content="12 Claude AI agents. Every layer of AI search visibility. Free. No subscriptions. Built and stress-tested across 6 brands."/>
+<meta property="og:url" content="https://ankitsingh.github.io/rankforce-geo/"/>
+<meta property="og:site_name" content="RankForce GEO"/>
+<meta property="og:image" content="https://ankitsingh.github.io/rankforce-geo/og-image.png"/>
+
+<!-- ── Twitter Card ── -->
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="RankForce GEO — 12-Agent AI SEO Squad"/>
+<meta name="twitter:description" content="12 Claude AI agents. Every layer of AI search visibility. Free."/>
+<meta name="twitter:image" content="https://ankitsingh.github.io/rankforce-geo/og-image.png"/>
+
+<!-- ── Schema.org JSON-LD ── -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "RankForce GEO",
+  "description": "12-agent Claude AI squad for GEO (Generative Engine Optimization). Free, browser-based, no subscriptions. Covers prompt research, AI content strategy, GEO on-page editing, answer optimization, schema markup, entity signals, AI visibility auditing, citation building, intent mapping, AI search tracking, and competitor share-of-voice.",
+  "url": "https://ankitsingh.github.io/rankforce-geo/",
+  "applicationCategory": "BusinessApplication",
+  "operatingSystem": "Any (browser-based)",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "INR"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Ankit Singh",
+    "url": "https://uprisingviews.com",
+    "jobTitle": "Digital Brand Strategist",
+    "description": "Digital Brand Strategist and Counter Strategy Expert with 10+ years experience. Founder of uprisingviews.com.",
+    "sameAs": [
+      "https://uprisingviews.com",
+      "https://linkedin.com/in/ankitsingh",
+      "https://twitter.com/ankitsingh"
+    ]
+  },
+  "keywords": "GEO, generative engine optimization, AI SEO, AEO, AI search visibility, Claude AI, ChatGPT optimization, Perplexity SEO",
+  "inLanguage": ["en", "hi"],
+  "isAccessibleForFree": true
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is RankForce GEO?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "RankForce GEO is a free, browser-based AI SEO tool with 12 specialized Claude AI agents covering every layer of generative engine optimization (GEO). It helps brands appear in AI-generated answers from ChatGPT, Perplexity, Gemini, and AI Overviews."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is RankForce GEO free to use?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. RankForce GEO is completely free. No subscriptions, no login required. Open the HTML file in any browser and all 12 agents are immediately available."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is GEO (Generative Engine Optimization)?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "GEO is the practice of optimizing content so AI engines like ChatGPT, Perplexity, and Gemini can extract, understand, and cite it in their generated responses. Unlike traditional SEO which targets search engine crawlers, GEO targets AI language model retrieval patterns."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is RankForce GEO different from traditional SEO tools?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Traditional SEO tools optimize for Google's crawler — keywords, backlinks, technical crawlability. RankForce GEO targets AI engines which work differently: they cite sources, recommend brands, and summarize content. RankForce covers AI-specific layers like answer block structuring, entity signal building, AI citation reverse-engineering, and brand share-of-voice tracking across AI engines."
+      }
+    }
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet"/>
+
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#07071A;--surface:#0D0D22;--card:#111128;--card2:#16163A;
+  --b1:#1A1A3A;--b2:#252550;
+  --violet:#7B6EE8;--vlo:#1A173C;--vhi:#B0A4FF;
+  --teal:#2DD4A8;--coral:#E8582F;--rose:#D44A76;
+  --amber:#E09525;--sky:#389AE6;--lime:#65AE1E;
+  --tx:#ECEAF8;--muted:#76748E;--faint:#2A2845;
+  --r:10px;
+}
+html,body{height:100%;overflow:hidden}
+body{font-family:'Space Grotesk',sans-serif;background:var(--bg);color:var(--tx);display:flex;flex-direction:column}
+
+/* ── TOP HEADER ── */
+.hdr{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:0 1.25rem;height:52px;flex-shrink:0;
+  background:var(--surface);border-bottom:1px solid var(--b1);gap:1rem;
+}
+.hdr-brand{display:flex;align-items:center;gap:9px;flex-shrink:0}
+.hdr-logo{
+  width:28px;height:28px;border-radius:7px;
+  background:linear-gradient(135deg,var(--violet),var(--teal));
+  display:flex;align-items:center;justify-content:center;
+  font-family:'Space Mono',monospace;font-size:10px;font-weight:700;color:#fff;
+}
+.hdr-name{font-size:14px;font-weight:700;letter-spacing:-.3px}
+.hdr-name em{color:var(--vhi);font-style:normal}
+.hdr-by{font-size:10px;color:var(--muted);white-space:nowrap}
+.hdr-tabs{display:flex;gap:4px;overflow-x:auto;flex:1;padding:0 .5rem}
+.hdr-tabs::-webkit-scrollbar{display:none}
+.htab{
+  display:flex;align-items:center;gap:5px;
+  padding:5px 11px;border-radius:6px;cursor:pointer;
+  font-size:12px;font-weight:500;white-space:nowrap;
+  border:1px solid transparent;color:var(--muted);transition:all .15s;flex-shrink:0;
+}
+.htab:hover{color:var(--tx);background:var(--card)}
+.htab.active{color:var(--tx);background:var(--card);border-color:var(--b2)}
+.htab-dot{width:7px;height:7px;border-radius:50%;flex-shrink:0}
+.htab-num{font-family:'Space Mono',monospace;font-size:9px;color:var(--muted)}
+.htab-close{margin-left:3px;color:var(--muted);font-size:11px;line-height:1;padding:0 2px;border-radius:3px}
+.htab-close:hover{color:var(--rose);background:rgba(212,74,118,.15)}
+
+/* ── WORKSPACE ── */
+.workspace{flex:1;overflow:hidden;display:flex;flex-direction:column}
+
+/* ── AGENT WINDOW ── */
+.agent-win{display:none;flex:1;flex-direction:column;overflow:hidden;height:100%}
+.agent-win.active{display:flex}
+
+.awin-bar{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:.75rem 1.25rem;flex-shrink:0;
+  background:var(--card);border-bottom:1px solid var(--b1);gap:1rem;
+}
+.awin-title{font-size:15px;font-weight:700;letter-spacing:-.3px}
+.awin-desc{font-size:11.5px;color:var(--muted);margin-top:1px}
+.awin-actions{display:flex;align-items:center;gap:8px;flex-shrink:0}
+.lbadge{font-size:10px;font-weight:600;padding:3px 9px;border-radius:20px;border:1px solid;letter-spacing:.04em}
+.btn-sm{
+  font-size:11.5px;padding:5px 12px;border-radius:6px;
+  border:1px solid var(--b2);background:transparent;color:var(--muted);
+  cursor:pointer;font-family:'Space Grotesk',sans-serif;transition:all .15s;
+}
+.btn-sm:hover{border-color:var(--violet);color:var(--tx)}
+.btn-sm.danger:hover{border-color:var(--rose);color:var(--rose)}
+
+/* ── SPLIT PANE ── */
+.awin-body{flex:1;display:flex;overflow:hidden}
+
+.awin-left{
+  width:340px;flex-shrink:0;display:flex;flex-direction:column;
+  border-right:1px solid var(--b1);background:var(--card);overflow-y:auto;
+}
+.awin-left::-webkit-scrollbar{width:3px}
+.awin-left::-webkit-scrollbar-thumb{background:var(--b2);border-radius:2px}
+
+.input-section{padding:1rem 1.1rem;flex:1}
+.input-section h4{
+  font-size:10px;font-weight:700;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--muted);margin-bottom:.9rem;
+}
+.field{margin-bottom:.85rem}
+.field label{
+  display:block;font-size:10.5px;font-weight:600;color:var(--muted);
+  text-transform:uppercase;letter-spacing:.07em;margin-bottom:4px;
+}
+.field input,.field textarea{
+  width:100%;background:var(--card2);border:1px solid var(--b2);
+  color:var(--tx);border-radius:7px;padding:8px 10px;
+  font-family:'Space Grotesk',sans-serif;font-size:12.5px;
+  outline:none;transition:border-color .2s;resize:vertical;
+}
+.field input::placeholder,.field textarea::placeholder{color:var(--faint)}
+.field input:focus,.field textarea:focus{border-color:var(--violet)}
+.field textarea{min-height:72px;line-height:1.5}
+
+.run-section{
+  padding:.85rem 1.1rem;border-top:1px solid var(--b1);
+  background:var(--card2);flex-shrink:0;
+}
+.btn-run{
+  width:100%;display:flex;align-items:center;justify-content:center;gap:8px;
+  padding:10px;border-radius:8px;background:var(--violet);color:#fff;
+  font-size:13.5px;font-weight:600;border:none;cursor:pointer;
+  font-family:'Space Grotesk',sans-serif;transition:opacity .15s,transform .1s;
+}
+.btn-run:hover{opacity:.88;transform:translateY(-1px)}
+.btn-run:disabled{opacity:.35;cursor:not-allowed;transform:none}
+.manual-note{
+  margin-top:.65rem;display:flex;align-items:flex-start;gap:6px;
+  font-size:11px;color:var(--amber);line-height:1.5;
+  padding:7px 9px;border-radius:6px;
+  background:rgba(224,149,37,.07);border:1px solid rgba(224,149,37,.2);
+}
+
+/* ── OUTPUT ── */
+.awin-right{flex:1;display:flex;flex-direction:column;overflow:hidden;background:var(--bg)}
+.output-scroll{flex:1;overflow-y:auto;padding:1.1rem}
+.output-scroll::-webkit-scrollbar{width:4px}
+.output-scroll::-webkit-scrollbar-thumb{background:var(--b2);border-radius:2px}
+
+.empty-wrap{
+  height:100%;display:flex;flex-direction:column;
+  align-items:center;justify-content:center;
+  gap:.7rem;opacity:.45;text-align:center;padding:2rem;
+}
+.empty-wrap .ei{font-size:2.5rem}
+.empty-wrap .et{font-size:15px;font-weight:600;color:var(--muted)}
+.empty-wrap .es{font-size:12px;color:var(--muted);line-height:1.6;max-width:280px}
+
+.out-block{background:var(--card);border:1px solid var(--b1);border-radius:var(--r);overflow:hidden;margin-bottom:.9rem}
+.out-hdr{display:flex;align-items:center;justify-content:space-between;padding:.6rem .9rem;background:var(--card2);border-bottom:1px solid var(--b1)}
+.out-hdr-l{font-size:11px;font-weight:600;color:var(--vhi)}
+.out-hdr-r{display:flex;gap:6px;align-items:center}
+.out-ts{font-size:10.5px;color:var(--muted)}
+.btn-copy,.btn-del{
+  font-size:10.5px;padding:3px 9px;border-radius:5px;
+  border:1px solid var(--b2);background:transparent;
+  color:var(--muted);cursor:pointer;font-family:'Space Grotesk',sans-serif;transition:all .15s;
+}
+.btn-copy:hover{border-color:var(--violet);color:var(--tx)}
+.btn-del:hover{border-color:var(--rose);color:var(--rose)}
+
+.out-body{padding:1rem 1.1rem;font-size:13px;line-height:1.75;color:var(--tx)}
+.out-body h1,.out-body h2,.out-body h3{font-weight:700;letter-spacing:-.3px;margin:1.1em 0 .4em;color:var(--vhi)}
+.out-body h1{font-size:1.15em}.out-body h2{font-size:1.05em}.out-body h3{font-size:.97em}
+.out-body p{margin-bottom:.75em}
+.out-body ul,.out-body ol{margin:.4em 0 .75em 1.3em}
+.out-body li{margin-bottom:.25em}
+.out-body table{width:100%;border-collapse:collapse;margin:.8em 0;font-size:12px}
+.out-body th{background:var(--card2);padding:7px 10px;text-align:left;font-weight:600;border:1px solid var(--b2);color:var(--vhi)}
+.out-body td{padding:6px 10px;border:1px solid var(--b1);vertical-align:top}
+.out-body tr:hover td{background:rgba(123,110,232,.04)}
+.out-body code{background:var(--card2);border:1px solid var(--b1);padding:1px 5px;border-radius:4px;font-family:'Space Mono',monospace;font-size:11px;color:var(--teal)}
+.out-body pre{background:var(--card2);border:1px solid var(--b1);border-radius:8px;padding:.9rem;overflow-x:auto;margin:.75em 0}
+.out-body pre code{background:none;border:none;padding:0;font-size:11.5px}
+.out-body strong{font-weight:600;color:var(--tx)}
+.out-body blockquote{border-left:2px solid var(--violet);padding-left:.9rem;color:var(--muted);margin:.75em 0}
+.out-body hr{border:none;border-top:1px solid var(--b1);margin:1em 0}
+
+.thinking{
+  display:flex;align-items:center;gap:10px;
+  padding:.9rem 1rem;margin-bottom:.9rem;
+  background:rgba(123,110,232,.06);
+  border:1px dashed var(--b2);border-radius:8px;
+  font-size:12.5px;color:var(--muted);
+}
+.spin{
+  width:14px;height:14px;border-radius:50%;flex-shrink:0;
+  border:2px solid var(--b2);border-top-color:var(--violet);
+  animation:sp .7s linear infinite;
+}
+@keyframes sp{to{transform:rotate(360deg)}}
+
+/* ── HOME ── */
+.home-win{display:none;flex:1;overflow-y:auto;justify-content:center;padding:2rem 1rem}
+.home-win.active{display:flex}
+.home-inner{max-width:900px;width:100%}
+.home-h{font-size:clamp(1.6rem,4vw,2.4rem);font-weight:700;letter-spacing:-.8px;margin-bottom:.4rem}
+.home-h em{color:var(--vhi);font-style:normal}
+.home-sub{font-size:14px;color:var(--muted);margin-bottom:2rem;line-height:1.65;max-width:600px}
+.home-section-label{
+  font-family:'Space Mono',monospace;font-size:10px;font-weight:700;
+  letter-spacing:.12em;text-transform:uppercase;color:var(--muted);
+  margin-bottom:.75rem;padding-bottom:.5rem;border-bottom:1px solid var(--b1);
+}
+.home-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(195px,1fr));gap:9px;margin-bottom:2rem}
+.home-card{
+  background:var(--card);border:1px solid var(--b1);border-radius:var(--r);
+  padding:.9rem;cursor:pointer;transition:border-color .18s,transform .15s;
+  position:relative;overflow:hidden;
+}
+.home-card::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:var(--cc,var(--violet))}
+.home-card:hover{border-color:var(--cc,var(--violet));transform:translateY(-2px)}
+.hc-num{font-family:'Space Mono',monospace;font-size:9.5px;font-weight:700;color:var(--cc,var(--violet));margin-bottom:.35rem}
+.hc-name{font-size:13px;font-weight:600;margin-bottom:.2rem}
+.hc-desc{font-size:11px;color:var(--muted);line-height:1.45}
+.hc-layer{display:inline-block;margin-top:.55rem;font-size:9.5px;padding:2px 7px;border-radius:20px;background:var(--faint);color:var(--muted)}
+
+/* ── WORKFLOW STEPS ── */
+.wf-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:8px;margin-bottom:2rem}
+.wf-card{
+  background:var(--card);border:1px solid var(--b1);border-radius:var(--r);
+  padding:.75rem .9rem;cursor:pointer;transition:border-color .15s;
+  display:flex;align-items:flex-start;gap:10px;
+}
+.wf-card:hover{border-color:var(--b2)}
+.wf-step-num{
+  font-family:'Space Mono',monospace;font-size:18px;font-weight:700;
+  color:var(--b2);line-height:1;flex-shrink:0;margin-top:2px;
+}
+.wf-step-name{font-size:12px;font-weight:600;line-height:1.3}
+.wf-step-why{font-size:10.5px;color:var(--muted);margin-top:2px;line-height:1.4}
+
+/* ── TOAST ── */
+.toast{
+  position:fixed;bottom:1.25rem;right:1.25rem;z-index:999;
+  background:var(--card2);border:1px solid var(--b2);
+  padding:9px 16px;border-radius:8px;font-size:12.5px;
+  opacity:0;transition:opacity .2s;pointer-events:none;
+}
+.toast.show{opacity:1}
+
+/* ── MOBILE ── */
+@media(max-width:640px){
+  .awin-body{flex-direction:column}
+  .awin-left{width:100%;max-height:45vh;border-right:none;border-bottom:1px solid var(--b1)}
+  .hdr-by{display:none}
+}
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="hdr" role="banner">
+  <div class="hdr-brand">
+    <div class="hdr-logo" aria-hidden="true">RF</div>
+    <div>
+      <div class="hdr-name">Rank<em>Force</em> GEO</div>
+      <div class="hdr-by">Ankit Singh · Counter Strategy Expert</div>
+    </div>
+  </div>
+  <nav class="hdr-tabs" id="hdrTabs" aria-label="Open agent tabs">
+    <div class="htab active" onclick="showHome()" id="tab-home" role="tab" aria-selected="true">
+      <span>🏠</span><span>Home</span>
+    </div>
+  </nav>
+</header>
+
+<!-- WORKSPACE -->
+<main class="workspace" id="workspace">
+
+  <!-- HOME -->
+  <div class="home-win active" id="win-home" role="main">
+    <div class="home-inner">
+      <h1 class="home-h">RankForce <em>GEO</em></h1>
+      <p class="home-sub">12 Claude AI agents. Every layer of AI search visibility. Click any agent to open it in its own window. All inputs and outputs are saved permanently in your browser.</p>
+
+      <div class="home-section-label">Recommended Workflow — run in this order</div>
+      <div class="wf-grid" id="wfGrid"></div>
+
+      <div class="home-section-label">All 12 Agents</div>
+      <div class="home-grid" id="homeGrid"></div>
+    </div>
+  </div>
+
+  <!-- AGENT WINDOWS injected by JS -->
+
+</main>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script>
+// ── AGENTS ────────────────────────────────────────────────────────
+const AGENTS = [
+  {
+    idx:0,num:'01',name:'Prompt Research',
+    desc:'Buyer questions people actually ask AI',
+    layer:'Research',lc:'#7B6EE8',
+    inputs:[
+      {k:'brand',l:'Brand / Product / Topic',t:'text',p:'e.g. uprisingviews.com — Hindi personal finance blog'},
+      {k:'audience',l:'Target Audience',t:'text',p:'e.g. 25-35 salaried Indians, beginner investors'},
+      {k:'market',l:'Market & Language',t:'text',p:'e.g. India, Hindi + English (Hinglish)'},
+      {k:'competitors',l:'Competitors (optional)',t:'text',p:'e.g. ET Money, Groww blog, Paisabazaar'},
+      {k:'funnel',l:'Funnel Stages',t:'text',p:'all  OR  awareness, consideration, decision'},
+    ],
+    sys:`You are an AI Search Query Research Specialist. Uncover exact natural-language questions real buyers type into ChatGPT, Perplexity, Gemini, Claude — NOT Google keywords.
+
+For each funnel stage (Awareness, Consideration, Decision, Post-Purchase), generate 8-12 realistic AI prompts — conversational, personalized ("for me", "I have X budget").
+
+Include: comparison prompts, "best for me" prompts, troubleshooting, and trust prompts ("is X legit").
+
+For each prompt output: Intent type | Why AI would answer confidently | Content Target to build.
+
+Flag TOP 10 highest-priority prompts (most likely asked + result in AI naming a brand).
+
+If bilingual market, include natural code-switched phrasings (e.g. Hinglish).
+
+OUTPUT — markdown tables:
+## [Funnel Stage]
+| AI Prompt | Intent Type | Content Target |
+
+## Top 10 Priority Prompts
+| Prompt | Why Priority |
+
+No filler. Lead with tables.`,
+    msg:f=>`Brand/Topic: ${f.brand}\nAudience: ${f.audience}\nMarket & Language: ${f.market}\nCompetitors: ${f.competitors||'not specified'}\nFunnel Stages: ${f.funnel||'all'}`
+  },
+  {
+    idx:1,num:'02',name:'AI Content Strategy',
+    desc:'Topical authority map built for LLM retrieval',
+    layer:'Research',lc:'#2DD4A8',
+    inputs:[
+      {k:'brand',l:'Brand / Site + Niche',t:'text',p:'e.g. uprisingviews.com — Hindi personal finance'},
+      {k:'pillar',l:'Core Pillar Topic',t:'text',p:'e.g. SIP investing for beginners in India'},
+      {k:'existing',l:'Existing Content (URLs/titles or "none")',t:'textarea',p:'List your existing articles, or type "none"'},
+      {k:'market',l:'Target Market & Language',t:'text',p:'e.g. India, English + Hindi'},
+    ],
+    sys:`You are a Topical Authority Architect specializing in content AI engines retrieve and cite.
+
+Build complete topic universe: pillar + every sub-entity, sub-topic, comparison, and question angle needed.
+
+3-level hierarchy: Pillar → Cluster → Sub-topic.
+
+For each item: Working title | Core entity/question | Content format | Internal link targets.
+
+E-E-A-T trust signal assets needed (about page, methodology, original data).
+
+If existing content provided, mark each: Cover / Update / New.
+
+Weekly publishing roadmap ordered by: (a) biggest topical gap, (b) best internal linking, (c) highest buyer-intent.
+
+OUTPUT:
+## Topic Universe (nested list, 3 levels)
+## Roadmap
+| Week | Title | Cluster | Core Question | Format | Status |
+## Trust Signal Assets`,
+    msg:f=>`Brand/Site: ${f.brand}\nPillar Topic: ${f.pillar}\nExisting Content: ${f.existing||'none'}\nMarket: ${f.market}`
+  },
+  {
+    idx:2,num:'03',name:'GEO On-Page Editor',
+    desc:'Rewrites pages so AI can extract and cite them',
+    layer:'Content',lc:'#E8582F',
+    inputs:[
+      {k:'query',l:'Primary Query This Page Should Win',t:'text',p:'e.g. best SIP plan for beginners India 2025'},
+      {k:'brand',l:'Brand Name & Tone Notes',t:'text',p:'e.g. uprisingviews.com — conversational, Hinglish-friendly'},
+      {k:'content',l:'Page Content (paste full text)',t:'textarea',p:'Paste your entire page content here…'},
+    ],
+    sys:`You are a GEO (Generative Engine Optimization) On-Page Editor. Rewrite page content so AI engines can extract, understand, and cite it without losing brand voice.
+
+Rules:
+1. Open with 40-60 word Direct Answer — plain, third-person, citable (no "we/our").
+2. Convert headers to natural-language questions (H2/H3) matching AI prompts.
+3. Self-contained 2-4 sentence chunks (no dangling pronouns).
+4. Comparison tables or numbered lists where relevant.
+5. Specific numbers, dates, names for all claims.
+6. FAQ section with question H3s and 2-3 sentence answers.
+7. Keep brand voice in narrative and CTAs; keep factual content neutral.
+
+OUTPUT:
+## Rewritten Page (full clean markdown)
+## Changes Made (max 6 specific bullets)`,
+    msg:f=>`Primary Query: ${f.query}\nBrand/Tone: ${f.brand||'not specified'}\n\n--- PAGE CONTENT ---\n${f.content}`
+  },
+  {
+    idx:3,num:'04',name:'Answer Optimization',
+    desc:'Structures content into clean liftable AI answers',
+    layer:'Content',lc:'#D44A76',
+    inputs:[
+      {k:'query',l:'Target Question / Query',t:'text',p:'e.g. What is the best SIP amount for a beginner?'},
+      {k:'length',l:'Preferred Answer Length',t:'text',p:'short / medium / long'},
+      {k:'content',l:'Raw Facts / Draft Content',t:'textarea',p:'Paste your notes, facts, or draft content here…'},
+    ],
+    sys:`You are an AI Answer Engineer. Structure raw information into Answer Blocks — format AI Overviews, ChatGPT, and Perplexity lift directly.
+
+Featured Answer Block:
+- Sentence 1: direct complete answer (entity + attribute + value)
+- Sentences 2-4: supporting specifics (numbers, names, conditions, exceptions)
+
+Up to 3 format variants: paragraph | numbered steps | bullet/table.
+
+Stress-test: each block must make sense with zero surrounding context.
+
+Follow-Up Questions: 3-5 natural next questions with mini Answer Blocks (20-40 words each).
+
+OUTPUT:
+## Featured Answer Block
+## Format Variants
+## Follow-Up Q&A`,
+    msg:f=>`Query: ${f.query}\nLength: ${f.length||'medium'}\n\n--- RAW CONTENT ---\n${f.content}`
+  },
+  {
+    idx:4,num:'05',name:'Schema & Structured Data',
+    desc:'JSON-LD markup pages so AI can read them',
+    layer:'Technical',lc:'#389AE6',
+    inputs:[
+      {k:'pagetype',l:'Page Type',t:'text',p:'product / article / service / local business / FAQ'},
+      {k:'profiles',l:'Social Profile URLs (for sameAs)',t:'text',p:'LinkedIn, Twitter, Instagram, YouTube URLs…'},
+      {k:'details',l:'Page Details',t:'textarea',p:'Name, description, price, author, dates, FAQs, address, reviews…'},
+    ],
+    sys:`You are a Structured Data Engineer specializing in schema.org JSON-LD for AI/LLM parsing.
+
+Types: Product, FAQPage, HowTo, Article, Organization, LocalBusiness, Review, BreadcrumbList, WebPage+speakable.
+
+Identify every schema type applicable.
+
+Generate complete valid JSON-LD — populated from given details.
+
+Missing required fields: "REPLACE_ME: field_name"
+
+Add speakable specification for main answer/summary content.
+
+sameAs array with all social/profile URLs.
+
+OUTPUT:
+One complete JSON-LD script block per schema type — ready to paste into head.
+## Missing / To-Do (max 6 bullets)`,
+    msg:f=>`Page Type: ${f.pagetype}\nSocial URLs: ${f.profiles||'none'}\n\n--- PAGE DETAILS ---\n${f.details}`
+  },
+  {
+    idx:5,num:'06',name:'Answer Intelligence',
+    desc:'Reverse-engineers what AI cites in top responses',
+    layer:'Intelligence',lc:'#65AE1E',
+    isManual:true,
+    inputs:[
+      {k:'query',l:'Target Query',t:'text',p:'e.g. best personal finance apps India 2025'},
+      {k:'airesponses',l:'AI Responses + Citations (from ChatGPT / Perplexity / Gemini)',t:'textarea',p:'Paste full AI answers including source names/URLs cited…'},
+      {k:'mycontent',l:'My Page Content (optional — gap analysis)',t:'textarea',p:'Paste your existing page for gap comparison…'},
+    ],
+    sys:`You are an Answer Intelligence Analyst. Reverse-engineer why AI engines cite sources they cite, produce blueprint to get cited.
+
+For each cited source: domain authority type, content format cited (definition/stat/list/table/step), recency.
+
+Common denominators across all cited sources — structural and topical.
+
+If user content provided, compare against denominators, identify specific gaps.
+
+Replication Blueprint: concrete changes to become citable.
+
+OUTPUT:
+## Source Analysis
+| Source | Format Pattern | Authority Signal | Why Likely Cited |
+## Common Denominators (max 5 bullets)
+## Gap Analysis (if content provided)
+## Replication Blueprint (prioritized checklist)`,
+    msg:f=>`Target Query: ${f.query}\n\n--- AI RESPONSES + CITATIONS ---\n${f.airesponses}\n\n--- MY CONTENT ---\n${f.mycontent||'not provided'}`
+  },
+  {
+    idx:6,num:'07',name:'Citation Builder',
+    desc:'Finds the publications AI quotes — your PR hit list',
+    layer:'Intelligence',lc:'#E09525',
+    inputs:[
+      {k:'niche',l:'Niche / Industry',t:'text',p:'e.g. personal finance, investing, SIP India'},
+      {k:'brand',l:'Brand Name',t:'text',p:'e.g. uprisingviews.com'},
+      {k:'market',l:'Target Market & Language',t:'text',p:'e.g. India, English + Hindi'},
+      {k:'existing',l:'Current PR / Backlinks (optional)',t:'text',p:'e.g. mentioned in Moneycontrol, ET Money'},
+    ],
+    sys:`You are a Digital PR Strategist for GEO. Find publications, platforms, and content formats AI engines actually cite in this niche.
+
+Source categories AI leans on: trade pubs, .gov/.edu, Wikipedia-adjacent, comparison/review platforms, Reddit/Quora/forums, YouTube, niche directories.
+
+For this niche and market, name actual sites/platforms in each category.
+
+For each: why AI trusts/cites it + content format to get featured + outreach angle.
+
+Suggest 3-5 linkable asset ideas (surveys, calculators, proprietary data, expert roundups).
+
+OUTPUT:
+## PR Hit List (prioritized)
+| Site/Platform | Authority Type | Content Format Needed | Outreach Approach |
+## Linkable Asset Ideas (3-5, one line each)
+## Quick Win vs Long Game split`,
+    msg:f=>`Niche: ${f.niche}\nBrand: ${f.brand}\nMarket: ${f.market}\nExisting PR: ${f.existing||'none'}`
+  },
+  {
+    idx:7,num:'08',name:'Entity Signals',
+    desc:'Builds the Knowledge Graph presence AI trusts',
+    layer:'Technical',lc:'#7B6EE8',
+    inputs:[
+      {k:'brand',l:'Brand Name + Website',t:'text',p:'e.g. uprisingviews.com'},
+      {k:'people',l:'Founder / Key People (name + role)',t:'text',p:'e.g. Ankit Singh — Digital Brand Strategist'},
+      {k:'niche',l:'Niche / Category',t:'text',p:'e.g. Hindi personal finance content'},
+      {k:'presence',l:'Current Presence',t:'text',p:'GBP: yes/no | Wikidata: yes/no | Socials: list'},
+      {k:'about',l:'About Page Content (paste or "none")',t:'textarea',p:'Paste your about page text…'},
+    ],
+    sys:`You are an Entity SEO Specialist. Build the brand's entity presence — consistent structured info AI engines and Knowledge Graphs use to trust a brand.
+
+Audit entity consistency: name, description, category, facts across inputs — flag inconsistencies.
+
+Entity home base: About page structure (who/what/when/where/credentials), Organization JSON-LD with sameAs, Wikidata entry path, GBP optimization, directory listings.
+
+Entity association content — pieces that explicitly connect brand entity to target topic entities.
+
+Prioritize by effort vs. impact.
+
+OUTPUT:
+## Entity Consistency Audit (bullets)
+## Setup Checklist
+| Action | Effort | Impact | Where |
+## Sample Organization JSON-LD (sameAs filled)
+## Entity Association Content Ideas (3-5 titles)`,
+    msg:f=>`Brand: ${f.brand}\nPeople: ${f.people}\nNiche: ${f.niche}\nPresence: ${f.presence}\n\n--- ABOUT PAGE ---\n${f.about||'none'}`
+  },
+  {
+    idx:8,num:'09',name:'AI Visibility Audit',
+    desc:'Checks if you show up across ChatGPT, Perplexity, Gemini',
+    layer:'Tracking',lc:'#2DD4A8',
+    isManual:true,
+    inputs:[
+      {k:'brand',l:'Brand Name + Key Topics',t:'text',p:'e.g. uprisingviews.com — Hindi personal finance, SIP guides'},
+      {k:'queries',l:'Target Queries (or leave blank to generate)',t:'textarea',p:'Paste 5-10 queries OR leave blank — I\'ll generate them'},
+      {k:'results',l:'Filled Results (paste after running test prompts)',t:'textarea',p:'Leave blank first. After running in ChatGPT/Perplexity/Gemini paste your filled scoring table here…'},
+    ],
+    sys:`You are an AI Visibility Auditor. Cannot query ChatGPT/Perplexity/Gemini directly. Design audit, then analyze pasted results.
+
+PHASE 1 (results blank):
+- Generate 15 test prompts: brand-direct + category "best of" + Brand vs Competitor comparisons
+- Empty scoring template: | Prompt | Engine | Mentioned Y/N | Recommended Y/N | Cited Y/N | Position | Competitors Seen |
+- 3-bullet instructions for running manually
+
+PHASE 2 (results pasted):
+- Visibility Score: (Mentioned + Recommended×2 + Cited×3) / (Prompts × Engines × 3) × 100
+- Break down by engine and query type
+- Map each gap to the Squad agent that fixes it
+
+OUTPUT Phase 1:
+## Test Prompt List (15 numbered)
+## Scoring Template (empty table)
+## Instructions
+
+OUTPUT Phase 2:
+## Visibility Score: X/100
+## Score Breakdown (table)
+## Gap-to-Agent Action Map`,
+    msg:f=>`Brand + Topics: ${f.brand}\nTarget Queries: ${f.queries||'please generate them'}\n\n--- FILLED RESULTS ---\n${f.results||'none yet — generate audit template first'}`
+  },
+  {
+    idx:9,num:'10',name:'Intent Mapping',
+    desc:'What each AI query actually wants',
+    layer:'Research',lc:'#E8582F',
+    inputs:[
+      {k:'queries',l:'Query List (one per line — from Agent 01 output)',t:'textarea',p:'Paste your queries here…'},
+    ],
+    sys:`You are an AI Search Intent Analyst. Map what an AI engine tries to satisfy for each prompt.
+
+For each query:
+- Surface Intent: informational / comparison / transactional / navigational / troubleshooting / local
+- Underlying Decision: real decision person makes after this answer
+- Ideal AI Answer Shape: format + components needed
+- Likely Source Type: what content/source backs this kind of answer
+- Content Action: what to create or change to be the source
+
+OUTPUT — one clean table, no preamble:
+| Query | Surface Intent | Underlying Decision | Ideal Answer Shape | Likely Source Type | Content Action |`,
+    msg:f=>`Queries:\n\n${f.queries}`
+  },
+  {
+    idx:10,num:'11',name:'AI Search Tracking',
+    desc:'Monthly brand mentions monitor across every engine',
+    layer:'Tracking',lc:'#D44A76',
+    isManual:true,
+    inputs:[
+      {k:'brand',l:'Brand + Main Competitors',t:'text',p:'e.g. uprisingviews.com vs ET Money, Groww, Paisabazaar'},
+      {k:'queries',l:'Core Queries to Monitor (5-10)',t:'textarea',p:'Brand-direct, category "best of", and comparison queries…'},
+      {k:'frequency',l:'Tracking Frequency',t:'text',p:'weekly / monthly'},
+      {k:'logdata',l:'Previous Log Data (for trend analysis)',t:'textarea',p:'Paste previous month\'s filled log table — or leave blank for first setup'},
+    ],
+    sys:`You are an AI Search Tracking Coordinator. Set up and maintain recurring brand-visibility monitoring (manual-input based).
+
+SETUP (no log data):
+- Fixed Monitoring Prompt Set (keep identical month-to-month): brand-direct + category "best of" + Brand vs each Competitor
+- Log Template: | Date | Engine | Prompt | Brand Mentioned Y/N | Position/Context | Cited Y/N | Competitors Mentioned | Sentiment |
+- SOV formula: brand mentions / (brand + competitor mentions) × 100
+
+ANALYSIS (log data pasted):
+- Compare runs: trend direction, improved/declined queries, new competitors
+- SOV % per brand per run
+- Biggest movement
+
+OUTPUT Setup:
+## Fixed Monitoring Prompt Set (numbered)
+## Log Template (empty table)
+## SOV Formula
+
+OUTPUT Analysis:
+## SOV Trend Table | Brand | Run 1 % | Run 2 % | Change |
+## Notable Movements
+## Recommended Actions`,
+    msg:f=>`Brand + Competitors: ${f.brand}\nQueries: ${f.queries}\nFrequency: ${f.frequency||'monthly'}\n\n--- LOG DATA ---\n${f.logdata||'none — first setup'}`
+  },
+  {
+    idx:11,num:'12',name:'Competitor Share-of-Voice',
+    desc:'Who AI recommends, who\'s gaining, and why',
+    layer:'Tracking',lc:'#7B6EE8',
+    isManual:true,
+    inputs:[
+      {k:'brand',l:'My Brand + 3-5 Competitors',t:'text',p:'e.g. uprisingviews.com vs ET Money, Groww, Paisabazaar'},
+      {k:'queries',l:'Target Queries Used',t:'textarea',p:'List the queries you ran in each AI engine…'},
+      {k:'responses',l:'AI Responses (paste from ChatGPT / Perplexity / Gemini)',t:'textarea',p:'Paste full AI responses — include brands mentioned, recommended, or cited…'},
+      {k:'prevdata',l:'Previous Run Data (optional — for trend)',t:'textarea',p:'Paste previous SOV table for shift comparison…'},
+    ],
+    sys:`You are a Competitive Share-of-Voice Analyst for AI search. Determine which competitors AI recommends, why, and how that's shifting.
+
+Tally mention frequency and "recommended" status per competitor.
+
+For competitors outperforming target brand, identify likely reasons: citation patterns, features called out, "best of" list sources.
+
+SOV: each brand's mentions / total mentions × 100.
+
+Open queries — where no brand dominates — as opportunities.
+
+Flag share shifts if previous data provided.
+
+OUTPUT:
+## Share of Voice Table
+| Brand | Mentions | Recommended Count | Share % |
+## Why They're Winning (per leading competitor, max 2 lines)
+## Open Opportunity Queries
+## Shift Summary (if prior data)
+## Counter-Strategy Recommendations (3-5 actions)`,
+    msg:f=>`Brand + Competitors: ${f.brand}\nQueries: ${f.queries}\n\n--- AI RESPONSES ---\n${f.responses}\n\n--- PREVIOUS RUN ---\n${f.prevdata||'none'}`
+  }
+];
+
+const WORKFLOW = [
+  {idx:0,why:'Master query list — feeds everything'},
+  {idx:9,why:'What to build for each query'},
+  {idx:1,why:'Full content roadmap'},
+  {idx:2,why:'Optimise each priority page'},
+  {idx:3,why:'Build clean answer blocks'},
+  {idx:4,why:'Markup pass on all pages'},
+  {idx:7,why:'One-time brand trust setup'},
+  {idx:8,why:'Establish baseline score'},
+  {idx:5,why:'Find citation gaps'},
+  {idx:6,why:'PR outreach hit list'},
+  {idx:10,why:'Monthly SOV monitoring'},
+  {idx:11,why:'Spot who\'s gaining & why'},
+];
+
+// ── STORAGE ───────────────────────────────────────────────────────
+const SK = 'rfgeo_v3';
+const TK = 'rfgeo_tabs_v3';
+function loadStore(){ try{ return JSON.parse(localStorage.getItem(SK)||'{}'); }catch(e){ return {}; } }
+function saveStore(){ localStorage.setItem(SK, JSON.stringify(store)); }
+let store = loadStore();
+function aStore(idx){
+  if(!store['a'+idx]) store['a'+idx]={fields:{},outputs:[]};
+  return store['a'+idx];
+}
+
+// ── BUILD WINDOWS & HOME ──────────────────────────────────────────
+const workspace = document.getElementById('workspace');
+const hdrTabs   = document.getElementById('hdrTabs');
+const homeGrid  = document.getElementById('homeGrid');
+const wfGrid    = document.getElementById('wfGrid');
+
+// workflow cards
+WORKFLOW.forEach((w,step)=>{
+  const ag = AGENTS[w.idx];
+  const card = document.createElement('div');
+  card.className = 'wf-card';
+  card.onclick = ()=> openAgent(ag.idx);
+  card.innerHTML = `<div class="wf-step-num" style="color:${ag.lc}55">${step+1}</div>
+    <div><div class="wf-step-name" style="color:${ag.lc}">${ag.name}</div>
+    <div class="wf-step-why">${w.why}</div></div>`;
+  wfGrid.appendChild(card);
+});
+
+// home agent cards + agent windows
+AGENTS.forEach(ag => {
+  // home card
+  const hc = document.createElement('div');
+  hc.className='home-card';
+  hc.style.setProperty('--cc',ag.lc);
+  hc.innerHTML=`<div class="hc-num" style="color:${ag.lc}">AGENT ${ag.num}</div>
+    <div class="hc-name">${ag.name}</div>
+    <div class="hc-desc">${ag.desc}</div>
+    <span class="hc-layer">${ag.layer}</span>`;
+  hc.onclick=()=>openAgent(ag.idx);
+  homeGrid.appendChild(hc);
+
+  // agent window
+  const win = document.createElement('div');
+  win.className='agent-win';
+  win.id='win-a'+ag.idx;
+  const inputsHtml = ag.inputs.map(inp=>`
+    <div class="field">
+      <label for="f_${ag.idx}_${inp.k}">${inp.l}</label>
+      ${inp.t==='textarea'
+        ?`<textarea id="f_${ag.idx}_${inp.k}" placeholder="${inp.p}" rows="3"></textarea>`
+        :`<input type="text" id="f_${ag.idx}_${inp.k}" placeholder="${inp.p}"/>`}
+    </div>`).join('');
+
+  win.innerHTML=`
+    <div class="awin-bar">
+      <div class="awin-info">
+        <div class="awin-title">Agent ${ag.num} — ${ag.name}</div>
+        <div class="awin-desc">${ag.desc}</div>
+      </div>
+      <div class="awin-actions">
+        <span class="lbadge" style="color:${ag.lc};border-color:${ag.lc}55;background:${ag.lc}12">${ag.layer}</span>
+        <button class="btn-sm danger" onclick="clearOutputs(${ag.idx})">Clear</button>
+      </div>
+    </div>
+    <div class="awin-body">
+      <div class="awin-left">
+        <div class="input-section">
+          <h4>Inputs</h4>${inputsHtml}
+        </div>
+        <div class="run-section">
+          <button class="btn-run" id="btnRun${ag.idx}" onclick="runAgent(${ag.idx})">
+            <span id="btnIco${ag.idx}">⚡</span>
+            <span id="btnTxt${ag.idx}">Run Agent ${ag.num}</span>
+          </button>
+          ${ag.isManual?`<div class="manual-note">⚠ Manual step — run the prompts this agent generates in ChatGPT / Perplexity / Gemini, then paste results back above.</div>`:''}
+        </div>
+      </div>
+      <div class="awin-right">
+        <div class="output-scroll" id="out${ag.idx}"></div>
+      </div>
+    </div>`;
+  workspace.appendChild(win);
+
+  // restore saved fields
+  const saved = aStore(ag.idx);
+  ag.inputs.forEach(inp=>{
+    const el = document.getElementById(`f_${ag.idx}_${inp.k}`);
+    if(!el) return;
+    if(saved.fields[inp.k]) el.value=saved.fields[inp.k];
+    el.addEventListener('input',()=>{ aStore(ag.idx).fields[inp.k]=el.value; saveStore(); });
+  });
+
+  // render saved outputs
+  renderOutputs(ag.idx);
+});
+
+// ── TABS ──────────────────────────────────────────────────────────
+let openTabs = [];
+try{ openTabs=JSON.parse(localStorage.getItem(TK)||'[]'); }catch(e){}
+let activeWin='home';
+
+function saveTabs(){ localStorage.setItem(TK,JSON.stringify(openTabs)); }
+
+function showHome(){
+  setActive('home');
+}
+
+function openAgent(idx){
+  if(!openTabs.includes(idx)){
+    openTabs.push(idx);
+    saveTabs();
+    buildTab(idx);
+  }
+  setActive('a'+idx);
+}
+
+function buildTab(idx){
+  const ag=AGENTS[idx];
+  if(document.getElementById('tab-a'+idx)) return;
+  const tab=document.createElement('div');
+  tab.className='htab';
+  tab.id='tab-a'+idx;
+  tab.setAttribute('role','tab');
+  tab.innerHTML=`<span class="htab-dot" style="background:${ag.lc}"></span>
+    <span>${ag.name}</span>
+    <span class="htab-num">${ag.num}</span>
+    <span class="htab-close" onclick="closeTab(event,${idx})" title="Close">✕</span>`;
+  tab.onclick=(e)=>{ if(!e.target.classList.contains('htab-close')) openAgent(idx); };
+  hdrTabs.appendChild(tab);
+}
+
+function closeTab(e,idx){
+  e.stopPropagation();
+  openTabs=openTabs.filter(i=>i!==idx);
+  saveTabs();
+  document.getElementById('tab-a'+idx)?.remove();
+  if(activeWin==='a'+idx) setActive('home');
+}
+
+function setActive(winId){
+  activeWin=winId;
+  document.querySelectorAll('.agent-win').forEach(w=>w.classList.remove('active'));
+  document.getElementById('win-home').classList.remove('active');
+  document.querySelectorAll('.htab').forEach(t=>{ t.classList.remove('active'); t.setAttribute('aria-selected','false'); });
+  if(winId==='home'){
+    document.getElementById('win-home').classList.add('active');
+    const ht=document.getElementById('tab-home');
+    if(ht){ ht.classList.add('active'); ht.setAttribute('aria-selected','true'); }
+  } else {
+    const win=document.getElementById('win-'+winId);
+    if(win) win.classList.add('active');
+    const tab=document.getElementById('tab-'+winId);
+    if(tab){ tab.classList.add('active'); tab.setAttribute('aria-selected','true'); }
+  }
+}
+
+// restore tabs
+openTabs.forEach(idx=>{ if(AGENTS[idx]) buildTab(idx); });
+setActive('home');
+
+// ── RENDER OUTPUTS ────────────────────────────────────────────────
+function renderOutputs(idx){
+  const area=document.getElementById('out'+idx);
+  if(!area) return;
+  const outs=aStore(idx).outputs||[];
+  if(!outs.length){
+    area.innerHTML=`<div class="empty-wrap">
+      <div class="ei">${AGENTS[idx].num}</div>
+      <div class="et">${AGENTS[idx].name}</div>
+      <div class="es">Fill inputs on the left and hit Run Agent. Outputs are saved permanently.</div>
+    </div>`;
+    return;
+  }
+  area.innerHTML=outs.map(o=>`
+    <div class="out-block">
+      <div class="out-hdr">
+        <span class="out-hdr-l">Agent ${AGENTS[idx].num} · ${AGENTS[idx].name}</span>
+        <span class="out-hdr-r">
+          <span class="out-ts">${o.ts}</span>
+          <button class="btn-copy" onclick="copyOut(${idx},'${o.id}')">Copy</button>
+          <button class="btn-del" onclick="delOut(${idx},'${o.id}')">✕</button>
+        </span>
+      </div>
+      <div class="out-body">${o.html}</div>
+    </div>`).join('');
+}
+
+function clearOutputs(idx){
+  aStore(idx).outputs=[];
+  saveStore();
+  renderOutputs(idx);
+}
+
+function delOut(idx,oid){
+  const s=aStore(idx);
+  s.outputs=s.outputs.filter(o=>o.id!==oid);
+  saveStore();
+  renderOutputs(idx);
+}
+
+// ── RUN ──────────────────────────────────────────────────────────
+const running={};
+async function runAgent(idx){
+  if(running[idx]) return;
+  const ag=AGENTS[idx];
+  const fields={};
+  ag.inputs.forEach(inp=>{
+    const el=document.getElementById(`f_${ag.idx}_${inp.k}`);
+    fields[inp.k]=el?el.value.trim():'';
+  });
+  if(!fields[ag.inputs[0].k]){
+    showToast('Fill in at least the first field');
+    document.getElementById(`f_${ag.idx}_${ag.inputs[0].k}`)?.focus();
+    return;
+  }
+  running[idx]=true;
+  const btn=document.getElementById('btnRun'+idx);
+  const ico=document.getElementById('btnIco'+idx);
+  const txt=document.getElementById('btnTxt'+idx);
+  if(btn) btn.disabled=true;
+  if(ico) ico.innerHTML='<span class="spin"></span>';
+  if(txt) txt.textContent='Running…';
+
+  const area=document.getElementById('out'+idx);
+  area.querySelector('.empty-wrap')?.remove();
+  const tid='t'+Date.now();
+  const tel=document.createElement('div');
+  tel.id=tid; tel.className='thinking';
+  tel.innerHTML=`<div class="spin"></div><span>Agent ${ag.num} · ${ag.name} running…</span>`;
+  area.insertBefore(tel,area.firstChild);
+
+  try{
+    const resp=await fetch('https://api.anthropic.com/v1/messages',{
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({
+        model:'claude-sonnet-4-6',
+        max_tokens:1000,
+        system:ag.sys,
+        messages:[{role:'user',content:ag.msg(fields)}]
+      })
+    });
+    const data=await resp.json();
+    const raw=data.content?.map(b=>b.text||'').join('')||'No response.';
+    const oid='o'+Date.now();
+    const ts=new Date().toLocaleString([],{month:'short',day:'numeric',hour:'2-digit',minute:'2-digit'});
+    aStore(idx).outputs.unshift({id:oid,ts,raw,html:md2html(raw)});
+    saveStore();
+  }catch(err){
+    const oid='o'+Date.now();
+    const ts=new Date().toLocaleString([],{month:'short',day:'numeric',hour:'2-digit',minute:'2-digit'});
+    aStore(idx).outputs.unshift({id:oid,ts,raw:'',html:`<p style="color:var(--rose)">⚠ Error: ${err.message}</p>`});
+    saveStore();
+  }
+  document.getElementById(tid)?.remove();
+  running[idx]=false;
+  if(btn) btn.disabled=false;
+  if(ico) ico.textContent='⚡';
+  if(txt) txt.textContent='Run Agent '+ag.num;
+  renderOutputs(idx);
+  if(area) area.scrollTop=0;
+}
+
+// ── COPY ─────────────────────────────────────────────────────────
+function copyOut(idx,oid){
+  const o=aStore(idx).outputs.find(x=>x.id===oid);
+  if(o) navigator.clipboard.writeText(o.raw).then(()=>showToast('Copied ✓'));
+}
+
+// ── MARKDOWN → HTML ──────────────────────────────────────────────
+function md2html(md){
+  let h=md
+    .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
+    .replace(/^### (.+)$/gm,'<h3>$1</h3>')
+    .replace(/^## (.+)$/gm,'<h2>$1</h2>')
+    .replace(/^# (.+)$/gm,'<h1>$1</h1>')
+    .replace(/\*\*\*(.+?)\*\*\*/g,'<strong><em>$1</em></strong>')
+    .replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>')
+    .replace(/\*(.+?)\*/g,'<em>$1</em>')
+    .replace(/```[\w]*\n?([\s\S]*?)```/g,'<pre><code>$1</code></pre>')
+    .replace(/`([^`]+)`/g,'<code>$1</code>')
+    .replace(/^---+$/gm,'<hr/>')
+    .replace(/^&gt; (.+)$/gm,'<blockquote>$1</blockquote>');
+  h=h.replace(/((?:\|.+\|\n?)+)/g,tbl=>{
+    const rows=tbl.trim().split('\n').filter(r=>r.trim());
+    let out='<table>',body=false;
+    rows.forEach((row,i)=>{
+      if(/^\|[\s\-|:]+\|$/.test(row.trim())) return;
+      const cells=row.split('|').filter((_,j,a)=>j>0&&j<a.length-1);
+      if(i===0){out+='<thead><tr>'+cells.map(c=>`<th>${c.trim()}</th>`).join('')+'</tr></thead><tbody>';body=true;}
+      else out+='<tr>'+cells.map(c=>`<td>${c.trim()}</td>`).join('')+'</tr>';
+    });
+    return out+(body?'</tbody>':'')+'</table>';
+  });
+  h=h.replace(/^(\d+)\. (.+)$/gm,'<li class="_ol">$2</li>');
+  h=h.replace(/^[-*] (.+)$/gm,'<li class="_ul">$2</li>');
+  h=h.replace(/(<li class="_ol">[\s\S]*?<\/li>\n?)+/g,m=>`<ol>${m.replace(/ class="_ol"/g,'')}</ol>`);
+  h=h.replace(/(<li class="_ul">[\s\S]*?<\/li>\n?)+/g,m=>`<ul>${m.replace(/ class="_ul"/g,'')}</ul>`);
+  h=h.split(/\n\n+/).map(b=>{
+    const t=b.trim();if(!t)return'';
+    if(/^<(h[1-6]|ul|ol|table|pre|blockquote|hr)/.test(t))return t;
+    return`<p>${t.replace(/\n/g,' ')}</p>`;
+  }).join('\n');
+  return h;
+}
+
+// ── TOAST ─────────────────────────────────────────────────────────
+function showToast(msg){
+  const t=document.getElementById('toast');
+  t.textContent=msg;t.classList.add('show');
+  setTimeout(()=>t.classList.remove('show'),2200);
+}
+</script>
+</body>
+</html>
